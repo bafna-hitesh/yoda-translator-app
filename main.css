@@ -111,8 +111,11 @@ footer {
     footer {
         position: fixed;
         left: 0;
-        bottom: 0;
+        bottom: -1rem;
         width: 100%;
-        background-color: #4B2D0B;
+        background-color: #4B2D0B; 
+    }
+    .footer-info{
+        padding-bottom: 30px;
     }
   }
